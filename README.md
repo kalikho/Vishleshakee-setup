@@ -37,7 +37,7 @@ Note:: PHP has been installed through remi repository.
 
 Open the application thorugh your browser
 
-### To setup the database credentials & hosts ::
+### To setup the database credentials & hosts:
 
 1. Login to the system
 2. Go to More on the right side of the Nav bar, click on Configure
