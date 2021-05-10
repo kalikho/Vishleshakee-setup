@@ -11,11 +11,16 @@ docker build --no-cache --pull -t local/vishleshakee:v2 . | tee /tmp/build.out
 ## Running the container
 
 Once the build is over, To run the container use the command:
+
+If I need only to highlight the first word as a command, I often use properties:
+
+```properties
 docker run --name vishleshakee --hostname vishleshakee.iitg.ac.in local/vishleshakee:v2
+```
 
 ## The container is CentOS 7 based container along with the following dependencies
 
-Some core dependencies like:
+Some core dependencies are:
 
 1. OpenSSL
 2. Httpd
@@ -35,6 +40,7 @@ Note:: PHP has been installed through remi repository.
 
 ## After build
 
+Once the installation process is over,
 Open the application thorugh your browser
 
 ### To setup the database credentials & hosts:
