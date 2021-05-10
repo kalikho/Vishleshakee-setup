@@ -1,4 +1,4 @@
-# The file contains a installation wizard to deploy vishleshakee's Web environment.
+# The file contains the installation wizard to deploy OSINT Vishleshakee's Web environment.
 
 ## Building the Vishleshakee environment
 
