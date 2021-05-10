@@ -3,10 +3,16 @@
 ## Building the Vishleshakee environment
 
 To build the docker file use the command:
+
+```properties
 docker build -t local/vishleshakee:v2 . | tee /tmp/build.out
+```
 
 To disable cache use
+
+```properties
 docker build --no-cache --pull -t local/vishleshakee:v2 . | tee /tmp/build.out
+```
 
 ## Running the container
 
