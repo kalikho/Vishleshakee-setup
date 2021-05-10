@@ -1,3 +1,0 @@
-#docker build --no-cache --pull -t local/vishleshakee:v2 . | tee /tmp/build.out
-docker build  -t local/vishleshakee:v2 . | tee /tmp/build.out
-
