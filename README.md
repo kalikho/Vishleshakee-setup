@@ -32,3 +32,15 @@ Some core dependencies like:
 | Laravel       | 7.0     |
 
 Note:: PHP has been installed through remi repository.
+
+## After build
+
+Open the application thorugh your browser
+
+### To setup the database credentials & hosts ::
+
+1. Login to the system
+2. Go to More on the right side of the Nav bar, click on Configure
+3. Go to Cofigure Environment
+4. Setup up the hosts and the credentials
+5. Click on Save
