@@ -18,13 +18,11 @@ docker build --no-cache --pull -t local/vishleshakee:v2 . | tee /tmp/build.out
 
 Once the build is over, To run the container use the command:
 
-If I need only to highlight the first word as a command, I often use properties:
-
 ```properties
 docker run --name vishleshakee --hostname vishleshakee.iitg.ac.in local/vishleshakee:v2
 ```
 
-## The container is CentOS 7 based container along with the following dependencies
+## The container is CentOS 7 based container with the following dependencies
 
 Some core dependencies are:
 
