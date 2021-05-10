@@ -1,0 +1,1 @@
+docker run --name vishleshakee --hostname vishleshakee.iitg.ac.in local/vishleshakee:v2
